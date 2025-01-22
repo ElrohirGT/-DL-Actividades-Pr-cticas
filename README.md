@@ -6,7 +6,7 @@ Repositorio creado para subir las distintas actividades realizadas en Diseño de
 A continuación se presenta el link a la branch respectiva en donde esta desarrollada la actividad:
 
 - [Actividad Práctica: Implementación de un Búfer de Entrada](https://github.com/ElrohirGT/-DL-Actividades-Pr-cticas/tree/actividad-buffer-entrada)
-- [Web Scraping con Expresiones Regulares](https://github.com/ElrohirGT/-DL-Actividades-Pr-cticas/tree/actividad-web-scrapping)
+- [Web Scraping con Expresiones Regulares](https://github.com/ElrohirGT/-DL-Actividades-Pr-cticas/tree/actividad-web-scraping?tab=readme-ov-file)
 
 ### Participantes:
 - José Prince
