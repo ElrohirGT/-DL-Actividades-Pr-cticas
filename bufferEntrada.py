@@ -1,3 +1,7 @@
+# Flavio Galán 22386
+# José Prince 22087
+# Andre Jo 22199
+
 TAMAÑO_BUFFER = 10
 
 # Código base para iniciar
