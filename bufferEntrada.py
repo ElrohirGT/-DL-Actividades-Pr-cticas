@@ -5,6 +5,9 @@ def cargar_buffer(entrada, inicio, tamano_buffer):
     buffer = entrada[inicio : inicio + tamano_buffer]
     if len(buffer) < tamano_buffer:
         buffer.append("eof")
+
+    for i in range(10- len(buffer)):
+        buffer.append("")
     return buffer
 
 
@@ -35,6 +38,7 @@ def procesar_buffer(entrada, TAMAÑO_BUFFER):
                 inicio = avance+1
             lexemas.append(localBuffer)
             localBuffer = ""
+            print("Lexema encontrado!", lexemas)
         else:
             localBuffer += buffer[idx]
         
