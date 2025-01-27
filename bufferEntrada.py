@@ -28,8 +28,8 @@ def procesar_buffer(entrada, TAMAÑO_BUFFER):
 
     localBuffer = ""
     while buffer[inicio % TAMAÑO_BUFFER] != "eof":
-        print(inicio, avance, buffer, lexemas)
 
+       
         if avance != 0 and avance % TAMAÑO_BUFFER == 0:
             buffer = cargar_buffer(entrada, avance, TAMAÑO_BUFFER)
 
@@ -41,24 +41,21 @@ def procesar_buffer(entrada, TAMAÑO_BUFFER):
             else:
                 inicio = avance+1
             lexemas.append(localBuffer)
+            print("Lexema encontrado!", localBuffer)
             localBuffer = ""
-            print("Lexema encontrado!", lexemas)
+            
         else:
             localBuffer += buffer[idx]
         
-        if (avance == 30):
-            break
-
         avance+=1
 
     return lexemas
 
     
-
-
 entrada = list("Esto es un ejemplo eof")
 inicio = 0
 
 lexemas = procesar_buffer(entrada, TAMAÑO_BUFFER)
+
 
 print(lexemas)
